@@ -1,27 +1,42 @@
 body {
-  background: #eee;
+  background:#eee; /* grey area */
   font-family: sans-serif;
 }
 
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: 16px auto; /* this is from the top of the page and centers the card */
+  padding: 0.1px; /* added to show white padding around card */
 }
 
+.title,
+.content,
+.button-container {
+  margin: 8px;
+  padding: 8px;
+}    
+
 .title {
+  font-size: 16px;
   background: #e3f4ff;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px 16px;
+
 }
 
 .button-container {
   background: #e3f4ff;
-}
+  text-align: center; /* added to center 'and a' */
+} 
 
 button {
   background: white;
+  padding: 8px 24px 8px;
   border: 1px solid #eee;
-}
+  display: block; /* added to move button to new line */
+  margin: 0 auto;
+} 
